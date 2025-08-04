@@ -23,6 +23,20 @@ l.remove("Blue"); //l.remove(2); index number
 System.out.println(l.contains("Green"));
 System.out.println(l.isEmpty());
 System.out.println(l.size());
+//for each
+List<String> i=new ArrayList<String>();
+i.add("Apple");
+i.add("Orange");
+i.add("Grapes");
+for(String s:i) //syntax: for(Type variable:Array/List name)
+{
+	System.out.println(s);
+}
+int a[]= {1,5,6,8};
+for(int p:a)
+{
+System.out.println(p);	
+}
 	}
 
 }

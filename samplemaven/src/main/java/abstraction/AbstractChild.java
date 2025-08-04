@@ -1,12 +1,21 @@
 package abstraction;
 
 public class AbstractChild extends AbstractParent{
+	
+	public void print()
+	{
+		System.out.println("print");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		AbstractChild obj=new AbstractChild();
+		AbstractChild obj=new AbstractChild();//object creation
+		AbstractParent obj1= new AbstractChild();//reference creation
+		obj1.display();
+		obj1.show();
 		obj.display();
 		obj.show();
+		obj.print();
 	}
 
 	@Override

@@ -13,7 +13,6 @@ public class CustomException {
 		{
 			throw new VotingException("Age under 18!");
 		}
-
 	}
 	}
 

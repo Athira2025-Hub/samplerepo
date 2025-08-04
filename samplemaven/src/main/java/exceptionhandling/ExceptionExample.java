@@ -10,13 +10,13 @@ public class ExceptionExample {
 		{
 			int c=a/b;
 		}
-		/*catch(ArithmeticException e)
+		catch(ArithmeticException e)
 		{
 			b=2;
 			int d=a/b;
 			System.out.println(d);
 		System.out.println(e);
-		}*/
+		}
 		finally
 		{
 			System.out.println("Finally");
